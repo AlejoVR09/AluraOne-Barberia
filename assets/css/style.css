@@ -1,0 +1,48 @@
+body {
+    font-size: 20px;
+} 
+
+h1 {
+    padding-left: 3rem;
+}
+
+h2,h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    
+}
+
+em strong {
+    color: red;
+}
+
+.banner {
+    width: 100%;
+}
+
+.imgDiff{
+    width: 40%;
+}
+
+.item {
+    font-style: italic;
+}
+
+.container {
+    background-color: #CCCCCC;
+    padding: 2rem;
+}
+
+.diff {
+    background-color: #FFFFFF;
+    padding: 2rem;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
+}
