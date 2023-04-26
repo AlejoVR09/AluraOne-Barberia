@@ -1,5 +1,20 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: inherit;
+    font-size: 16px;
+}
+
 header {
     background-color: #BBBBBB;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 nav a {
@@ -7,9 +22,13 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 22px;
-    margin-left: 15px;
+    font-size: 2.2rem;
+    margin-left: 1.5rem;
     
+}
+
+nav a:hover {
+    color: yellow;
 }
 
 .header nav {
@@ -22,4 +41,49 @@ nav a {
     width: 70%;
     position: relative;
     margin: 0 auto;
+}
+
+.producto {
+    display: inline-block;
+    width: 35rem;
+    margin: 2rem;
+    padding: 2rem 0;
+    list-style: none;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+.producto img {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.producto:hover{
+    border-color:yellow;
+}
+
+.producto:active{
+    border-color:green;
+}
+
+.producto:hover h2{
+    font-size: 3.6rem;
+}
+
+.productos {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 18px;
 }
